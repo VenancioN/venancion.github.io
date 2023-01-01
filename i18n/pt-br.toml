@@ -1,3 +1,6 @@
+[lang]
+  other = "pt-br"
+
 [menu]
   [menu.about]
     other = "sobre" 

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ i18n `lang` .}}">
   <head>
-    <title></title>
+    <title>Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
   </head>
   <body>
-    {{partial "header" .}}
+    {{partial "header/header" .}}
     {{block "main" .}}
     {{end}}
     {{partial "footer" .}}
