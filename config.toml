@@ -1,3 +1,38 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+defaultContentLanguage = 'pt-br'
+defaultContentLanguageInSubdir = true
+title = 'Portfolio'
+
+[languages]
+   [languages.en]
+    title = 'My blog'
+    weight = 1
+    languageName = 'English'
+   [languages.pt-br]
+    title = 'O meu blog'
+    weight = 2
+    languageName = 'Portuguese'
+
+[[languages.en.menu.main]]
+name = "home"
+url = "/"
+
+[[languages.en.menu.main]]
+name = "about me"
+url = "/about"
+
+[[languages.en.menu.main]]
+name = "projects"
+url = "/projects"
+
+[[languages.pt-br.menu.main]]
+name = "home"
+url = "/"
+
+[[languages.pt-br.main]]
+name = "sobre"
+url = "/sobre"
+
+[[languages.en.menu.main]]
+name = "projetos"
+url = "/projetos"

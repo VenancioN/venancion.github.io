@@ -1,1 +1,7 @@
-Hello World!
+{{ define "main" }}
+  {{ range .Pages }}
+    <div>
+      <a href="{{.Permalink}}">{{.Title}}</a>
+    </div>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,13 @@
+[menu]
+  [menu.about]
+    other = "about" 
+  [menu.projects]
+    other = "projects"
+  [menu.contact]
+    other = "contact"
+
+[footer]
+  [footer.rights]
+    other = "@ 2023 Gabriel Venancio. All rights reserved."
+  [footer.repo]
+    other = "GitHub repo"
