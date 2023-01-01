@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 header {
   box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
   height: 3.5rem;
 }
-
 
 .container {
   max-width: 1200px;
@@ -32,4 +33,46 @@ nav li {
   list-style: none;
   text-transform: uppercase;
   font-size: 1.8ch;
+}
+
+#about > .container {
+  padding: 4% 2%;
+}
+
+.emoji-about {
+  font-size: 7ch;
+}
+
+.desc {
+  max-width: 800px;
+}
+
+.desc h1 {
+  font-size: 4ch;
+}
+
+.desc h4 {
+  font-size: 3ch;
+  font-weight: 300;
+}
+
+.flex-v {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.actions-container i {
+  font-size: 4ch;
 }

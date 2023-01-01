@@ -1,4 +1,5 @@
 {{ define "main" }}
+  {{partial "about/about" .}}
   {{ range .Pages }}
     <div>
       <a href="{{.Permalink}}">{{.Title}}</a>
