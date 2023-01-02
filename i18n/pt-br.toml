@@ -24,9 +24,6 @@
     other = "💡 habilidades 🔧"
 
 [projects]
-  [projects.section]
-  other = "🏗️ projetos 📦"
   [projects.expand]
     other = "Ler mais."
 
-  

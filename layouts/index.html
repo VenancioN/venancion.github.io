@@ -3,7 +3,7 @@
   <section id="projects">
     <div class="container flex-v">
 
-      <h1>{{ i18n "projects.section" . }}</h1>
+      <h1 class="title">🏗️ {{ i18n "menu.projects" . }} 📦</h1>
 
       <div class="projects-wrapper">
         {{ range .Pages }} 
@@ -17,4 +17,5 @@
 
     </div> 
   </section>
+  {{ partial "contact/contact" .}}
 {{ end }}
