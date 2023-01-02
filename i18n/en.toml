@@ -21,6 +21,10 @@
   [about.desc-2]
     other = "I'am a front end developer."
   [about.skills]
-    other = "skills"
+    other = "💡 skills 🔧"
 
-
+[projects]
+  [projects.section]
+  other = "🏗️ projects 📦"
+  [projects.expand]
+    other = "Read more."

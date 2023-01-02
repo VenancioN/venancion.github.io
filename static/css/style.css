@@ -36,7 +36,7 @@ nav li {
 }
 
 #about > .container {
-  padding: 6% 2%;
+  padding: 4% 2%;
 }
 
 .emoji-about {
@@ -78,7 +78,7 @@ nav li {
 }
 
 .skills-section {
-  padding: 2% 0;
+  padding-top: 2%;
   max-width: 600px;
 }
 
@@ -110,3 +110,38 @@ nav li {
 .skills-section svg {
   width: 40px;
 }
+
+#projects {
+  padding-bottom: 4%;
+}
+
+#projects h1 {
+  text-transform: uppercase;
+  font-size: 3ch;
+}
+
+.projects-wrapper {
+  padding-top: 4%;
+}
+
+.projects-single {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+  width: 300px;
+  height: 200px;
+  padding: 4%;
+  gap: 0.4rem;
+  box-shadow: 0 0 5px rgba(150, 150, 150, 0.3);
+}
+
+.projects-single a {
+  color: blue;
+}
+
+.projects-single  a:hover {
+  text-decoration: initial;
+}
+
