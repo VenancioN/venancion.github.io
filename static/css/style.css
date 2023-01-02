@@ -36,7 +36,7 @@ nav li {
 }
 
 #about > .container {
-  padding: 4% 2%;
+  padding: 6% 2%;
 }
 
 .emoji-about {
@@ -51,8 +51,8 @@ nav li {
   font-size: 4ch;
 }
 
-.desc h4 {
-  font-size: 3ch;
+.desc h2 {
+  font-size: 2.5ch;
   font-weight: 300;
 }
 
@@ -75,4 +75,38 @@ nav li {
 
 .actions-container i {
   font-size: 4ch;
+}
+
+.skills-section {
+  padding: 2% 0;
+  max-width: 600px;
+}
+
+.skills-section h3 {
+  text-transform: uppercase;
+  font-size: 3ch;
+}
+
+.skills-wrapper {
+  padding-top: 6%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.skills-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100px;
+  height: 100px;
+}
+
+.skills-section svg {
+  width: 40px;
 }

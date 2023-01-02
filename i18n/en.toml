@@ -20,5 +20,7 @@
     other = "👋 Hello, I'am Gabriel Venancio."
   [about.desc-2]
     other = "I'am a front end developer."
+  [about.skills]
+    other = "skills"
 
 

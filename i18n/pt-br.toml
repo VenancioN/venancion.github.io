@@ -20,5 +20,7 @@
     other = "👋 Olá, meu nome é Gabriel Venancio."
   [about.desc-2]
     other = "E eu sou um desenvolvedor front end."
+  [about.skills]
+    other = "habilidades"
 
   
