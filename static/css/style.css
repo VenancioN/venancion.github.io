@@ -10,6 +10,16 @@ html {
   font-weight: 400;
 }
 
+.home-icon, .menu-icon {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 header {
   box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
   height: 3.5rem;
@@ -110,7 +120,7 @@ nav a:hover {
 }
 
 #about > .container {
-  padding: 8rem 2% 6rem 2%;
+  padding: 8rem 2% 4rem 2%;
 }
 
 .emoji-about {
@@ -123,6 +133,7 @@ nav a:hover {
 
 .desc h1 {
   font-size: 4ch;
+  font-weight: 300;
 }
 
 .desc h2 {
@@ -142,17 +153,18 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
   text-align: center;
-  padding: 4rem 0;
+  padding: 4rem 0 0 0;
 }
 
-.actions-container i {
-  font-size: 4ch;
+.actions-container svg {
+  width: 40px;
+  height: 40px;
 }
 
 .skills-section {
-  padding-top: 2rem;
+  padding-top: 4rem;
   max-width: 600px;
 }
 
@@ -241,5 +253,16 @@ footer div, span {
     transform: translateX(0);
   }
   
+}
+
+@media screen and (max-width: 500px) {
+  .desc h1 {
+    font-size: 2.3ch;
+ }
+
+  .desc h2 {
+    font-size: 1.8ch;
+    font-weight: 300;
+  }
 }
 
