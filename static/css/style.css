@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -28,15 +32,81 @@ header {
   justify-content: space-between;
 }
 
-nav ul {
+.nav-desktop {
   display: flex;
   gap: 1rem;
 }
+
+.hide {
+  display: none; 
+}
+
+.show {
+  display: block;
+}
+
+
+.menu-icon {
+  position: absolute;
+  z-index: 15;
+  font-size: 4ch;
+  top: -0.6rem;
+  right: 2%;
+  cursor: pointer;
+  animation: menu-icon 300ms linear;
+}
+
+.nav-mobile {
+  animation: menu 300ms linear;
+  flex-direction: column;
+  background-color: white;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  padding: 4rem;
+  position: absolute;
+  z-index: 10;
+}
+
+.nav-mobile li {
+  font-size: 3ch;
+  padding: 2rem;
+}
+
+.home-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.lang-switch {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.lang-icon {
+  width: 25px;
+  height: 25px;
+}
+
 
 nav li {
   list-style: none;
   text-transform: uppercase;
   font-size: 1.8ch;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+}
+
+nav a:hover {
+  opacity: 1.0;
 }
 
 #about > .container {
@@ -156,9 +226,20 @@ footer {
 }
 
 footer div, span {
-  opacity: 0.9;
   font-size: 1.5ch;
   font-weight: 300;
   padding: 0.5rem;
+}
+
+@keyframes menu {
+
+  from {
+    transform: translateX(200%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+  
 }
 
