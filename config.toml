@@ -3,6 +3,8 @@ defaultContentLanguage = 'pt-br'
 defaultContentLanguageInSubdir = true
 title = 'Portfolio'
 
+disableKinds = ["taxonomy", "term"]
+
 [languages]
    [languages.en]
     title = 'My blog'

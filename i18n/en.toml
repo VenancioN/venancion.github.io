@@ -1,6 +1,10 @@
 [lang]
   other = "en"
 
+[head]
+  [head.desc]
+    other = "Hi, I'am Gabriel Venancio and I'am a front end developer."
+
 [menu]
   [menu.about]
     other = "about" 
@@ -19,7 +23,7 @@
   [about.desc]
     other = "👋 Hi, I'am Gabriel Venancio."
   [about.desc-2]
-    other = "I'am a front end developer."
+    other = "And I'am a front end developer."
   [about.skills]
     other = "💡 skills 🔧"
 
@@ -30,3 +34,6 @@
 [single]
   [single.list]
     other = "List all projects."
+
+[404]
+  other = "404 - Page not found."

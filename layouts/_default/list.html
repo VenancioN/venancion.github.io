@@ -1,2 +1,21 @@
 {{define "main"}}
+  <section class="section-list">
+    <div class="container">
+
+      <h1 class="title">🏗️ {{ i18n "menu.projects" . }} 📦</h1>
+      
+      <div class="list-single-wrapper">
+        {{ range .Site.RegularPages}} 
+          <div class="list-single">
+            <h2>
+              {{ .Title }}
+            </h2> 
+            <p>{{ truncate 150 .Content }}</p>
+            <a href="{{ .Permalink }}">{{ i18n "projects.expand" .}}</a>
+          </div>
+        {{ end }}
+      </div>
+      
+    </div>
+  </section>
 {{end}}
