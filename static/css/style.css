@@ -143,6 +143,7 @@ nav a:hover {
 }
 
 .desc h1 {
+  padding-top: 0.5rem;
   font-size: 4ch;
   font-weight: 300;
 }
@@ -308,11 +309,11 @@ footer div, span {
 
 @media screen and (max-width: 500px) {
   .desc h1 {
-    font-size: 2.3ch;
+    font-size: 2.5ch;
  }
 
   .desc h2 {
-    font-size: 1.8ch;
+    font-size: 2ch;
     font-weight: 300;
   }
 }
