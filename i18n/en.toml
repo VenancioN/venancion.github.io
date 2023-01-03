@@ -26,3 +26,7 @@
 [projects]
   [projects.expand]
     other = "Read more."
+
+[single]
+  [single.list]
+    other = "List all projects."

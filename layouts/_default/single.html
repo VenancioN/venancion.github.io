@@ -1,3 +1,13 @@
 {{define "main"}}
-  {{.Content}}
+  <section class="section-single">
+    <div class="container">
+      <div class="section-header">
+        <h1 class="section-title">{{ .Title }}</h1>
+        <a a href='{{ relLangURL "/projects" }}'>{{ i18n "single.list" }}</a>
+      </div>
+      <div class="section-content">
+        {{.Content}}
+      </div>
+      </div>
+  </section>
 {{end}}

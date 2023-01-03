@@ -6,7 +6,7 @@
       <h1 class="title">🏗️ {{ i18n "menu.projects" . }} 📦</h1>
 
       <div class="projects-wrapper">
-        {{ range .Pages }} 
+        {{ range .Site.RegularPages }} 
           <div class="projects-single">
             <h2>{{ .Title }}</h2> 
             <p>{{ truncate 50 .Content }}</p>
